@@ -1,4 +1,4 @@
 FROM tomcat:8-jre8
 
-ADD target/recipeWebApp.jar /usr/local/tomcat/webapps/recipeWebApp.jar
+ADD target/recipeWebApp.war /usr/local/tomcat/webapps/recipeWebApp.war
 
